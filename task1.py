@@ -1,11 +1,12 @@
 n = int(input())
 a = 0
 b = 1
-print(a)
-print(b)
+if n >= a:
+    print(a)
 while n >= b:
+    print(b)
     c = b
     b = a + b
     a = c
-    print(b)
+
 
